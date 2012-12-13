@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8697B7F5167A82FE00384B07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8697B7F4167A82FE00384B07 /* UIKit.framework */; };
+		8697B7F7167A82FE00384B07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8697B7F6167A82FE00384B07 /* Foundation.framework */; };
+		8697B7F9167A82FE00384B07 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8697B7F8167A82FE00384B07 /* CoreGraphics.framework */; };
+		8697B7FF167A82FE00384B07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8697B7FD167A82FE00384B07 /* InfoPlist.strings */; };
+		8697B801167A82FE00384B07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8697B800167A82FE00384B07 /* main.m */; };
+		8697B805167A82FE00384B07 /* RNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8697B804167A82FE00384B07 /* RNAppDelegate.m */; };
+		8697B807167A82FE00384B07 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8697B806167A82FE00384B07 /* Default.png */; };
+		8697B809167A82FE00384B07 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8697B808167A82FE00384B07 /* Default@2x.png */; };
+		8697B80B167A82FE00384B07 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8697B80A167A82FE00384B07 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8697B7F0167A82FE00384B07 /* HackerNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackerNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8697B7F4167A82FE00384B07 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8697B7F6167A82FE00384B07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8697B7F8167A82FE00384B07 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8697B7FC167A82FE00384B07 /* HackerNews-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HackerNews-Info.plist"; sourceTree = "<group>"; };
+		8697B7FE167A82FE00384B07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8697B800167A82FE00384B07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8697B802167A82FE00384B07 /* HackerNews-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HackerNews-Prefix.pch"; sourceTree = "<group>"; };
+		8697B803167A82FE00384B07 /* RNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNAppDelegate.h; sourceTree = "<group>"; };
+		8697B804167A82FE00384B07 /* RNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNAppDelegate.m; sourceTree = "<group>"; };
+		8697B806167A82FE00384B07 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8697B808167A82FE00384B07 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8697B80A167A82FE00384B07 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8697B7ED167A82FE00384B07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8697B7F5167A82FE00384B07 /* UIKit.framework in Frameworks */,
+				8697B7F7167A82FE00384B07 /* Foundation.framework in Frameworks */,
+				8697B7F9167A82FE00384B07 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8697B7E5167A82FE00384B07 = {
+			isa = PBXGroup;
+			children = (
+				8697B7FA167A82FE00384B07 /* HackerNews */,
+				8697B7F3167A82FE00384B07 /* Frameworks */,
+				8697B7F1167A82FE00384B07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8697B7F1167A82FE00384B07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8697B7F0167A82FE00384B07 /* HackerNews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8697B7F3167A82FE00384B07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8697B7F4167A82FE00384B07 /* UIKit.framework */,
+				8697B7F6167A82FE00384B07 /* Foundation.framework */,
+				8697B7F8167A82FE00384B07 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8697B7FA167A82FE00384B07 /* HackerNews */ = {
+			isa = PBXGroup;
+			children = (
+				8697B803167A82FE00384B07 /* RNAppDelegate.h */,
+				8697B804167A82FE00384B07 /* RNAppDelegate.m */,
+				8697B7FB167A82FE00384B07 /* Supporting Files */,
+			);
+			path = HackerNews;
+			sourceTree = "<group>";
+		};
+		8697B7FB167A82FE00384B07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8697B7FC167A82FE00384B07 /* HackerNews-Info.plist */,
+				8697B7FD167A82FE00384B07 /* InfoPlist.strings */,
+				8697B800167A82FE00384B07 /* main.m */,
+				8697B802167A82FE00384B07 /* HackerNews-Prefix.pch */,
+				8697B806167A82FE00384B07 /* Default.png */,
+				8697B808167A82FE00384B07 /* Default@2x.png */,
+				8697B80A167A82FE00384B07 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8697B7EF167A82FE00384B07 /* HackerNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8697B80E167A82FE00384B07 /* Build configuration list for PBXNativeTarget "HackerNews" */;
+			buildPhases = (
+				8697B7EC167A82FE00384B07 /* Sources */,
+				8697B7ED167A82FE00384B07 /* Frameworks */,
+				8697B7EE167A82FE00384B07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackerNews;
+			productName = HackerNews;
+			productReference = 8697B7F0167A82FE00384B07 /* HackerNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8697B7E7167A82FE00384B07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RN;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Ryan Nystrom";
+			};
+			buildConfigurationList = 8697B7EA167A82FE00384B07 /* Build configuration list for PBXProject "HackerNews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8697B7E5167A82FE00384B07;
+			productRefGroup = 8697B7F1167A82FE00384B07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8697B7EF167A82FE00384B07 /* HackerNews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8697B7EE167A82FE00384B07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8697B7FF167A82FE00384B07 /* InfoPlist.strings in Resources */,
+				8697B807167A82FE00384B07 /* Default.png in Resources */,
+				8697B809167A82FE00384B07 /* Default@2x.png in Resources */,
+				8697B80B167A82FE00384B07 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8697B7EC167A82FE00384B07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8697B801167A82FE00384B07 /* main.m in Sources */,
+				8697B805167A82FE00384B07 /* RNAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8697B7FD167A82FE00384B07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8697B7FE167A82FE00384B07 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8697B80C167A82FE00384B07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		8697B80D167A82FE00384B07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8697B80F167A82FE00384B07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HackerNews/HackerNews-Prefix.pch";
+				INFOPLIST_FILE = "HackerNews/HackerNews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8697B810167A82FE00384B07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HackerNews/HackerNews-Prefix.pch";
+				INFOPLIST_FILE = "HackerNews/HackerNews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8697B7EA167A82FE00384B07 /* Build configuration list for PBXProject "HackerNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8697B80C167A82FE00384B07 /* Debug */,
+				8697B80D167A82FE00384B07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8697B80E167A82FE00384B07 /* Build configuration list for PBXNativeTarget "HackerNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8697B80F167A82FE00384B07 /* Debug */,
+				8697B810167A82FE00384B07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8697B7E7167A82FE00384B07 /* Project object */;
+}
