@@ -16,6 +16,9 @@
 		8697B807167A82FE00384B07 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8697B806167A82FE00384B07 /* Default.png */; };
 		8697B809167A82FE00384B07 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8697B808167A82FE00384B07 /* Default@2x.png */; };
 		8697B80B167A82FE00384B07 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8697B80A167A82FE00384B07 /* Default-568h@2x.png */; };
+		869CC2BC167A835600F29BA9 /* RNBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 869CC2BB167A835600F29BA9 /* RNBaseViewController.m */; };
+		869CC2C0167A841000F29BA9 /* d.png in Resources */ = {isa = PBXBuildFile; fileRef = 869CC2BE167A841000F29BA9 /* d.png */; };
+		869CC2C1167A841000F29BA9 /* d@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 869CC2BF167A841000F29BA9 /* d@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,10 @@
 		8697B806167A82FE00384B07 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		8697B808167A82FE00384B07 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		8697B80A167A82FE00384B07 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		869CC2BA167A835600F29BA9 /* RNBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBaseViewController.h; sourceTree = "<group>"; };
+		869CC2BB167A835600F29BA9 /* RNBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNBaseViewController.m; sourceTree = "<group>"; };
+		869CC2BE167A841000F29BA9 /* d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = d.png; sourceTree = "<group>"; };
+		869CC2BF167A841000F29BA9 /* d@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "d@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +58,7 @@
 		8697B7E5167A82FE00384B07 = {
 			isa = PBXGroup;
 			children = (
+				869CC2BD167A841000F29BA9 /* Graphics */,
 				8697B7FA167A82FE00384B07 /* HackerNews */,
 				8697B7F3167A82FE00384B07 /* Frameworks */,
 				8697B7F1167A82FE00384B07 /* Products */,
@@ -80,6 +88,8 @@
 			children = (
 				8697B803167A82FE00384B07 /* RNAppDelegate.h */,
 				8697B804167A82FE00384B07 /* RNAppDelegate.m */,
+				869CC2BA167A835600F29BA9 /* RNBaseViewController.h */,
+				869CC2BB167A835600F29BA9 /* RNBaseViewController.m */,
 				8697B7FB167A82FE00384B07 /* Supporting Files */,
 			);
 			path = HackerNews;
@@ -97,6 +107,16 @@
 				8697B80A167A82FE00384B07 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		869CC2BD167A841000F29BA9 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				869CC2BE167A841000F29BA9 /* d.png */,
+				869CC2BF167A841000F29BA9 /* d@2x.png */,
+			);
+			name = Graphics;
+			path = HackerNews/Graphics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +175,8 @@
 				8697B807167A82FE00384B07 /* Default.png in Resources */,
 				8697B809167A82FE00384B07 /* Default@2x.png in Resources */,
 				8697B80B167A82FE00384B07 /* Default-568h@2x.png in Resources */,
+				869CC2C0167A841000F29BA9 /* d.png in Resources */,
+				869CC2C1167A841000F29BA9 /* d@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +189,7 @@
 			files = (
 				8697B801167A82FE00384B07 /* main.m in Sources */,
 				8697B805167A82FE00384B07 /* RNAppDelegate.m in Sources */,
+				869CC2BC167A835600F29BA9 /* RNBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +266,7 @@
 				GCC_PREFIX_HEADER = "HackerNews/HackerNews-Prefix.pch";
 				INFOPLIST_FILE = "HackerNews/HackerNews-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -254,6 +278,7 @@
 				GCC_PREFIX_HEADER = "HackerNews/HackerNews-Prefix.pch";
 				INFOPLIST_FILE = "HackerNews/HackerNews-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -277,6 +302,7 @@
 				8697B810167A82FE00384B07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

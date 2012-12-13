@@ -7,12 +7,18 @@
 //
 
 #import "RNAppDelegate.h"
+#import "RNBaseViewController.h"
 
 @implementation RNAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    RNBaseViewController *base = [[RNBaseViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:base];
+    self.window.rootViewController = nav;
+    
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
