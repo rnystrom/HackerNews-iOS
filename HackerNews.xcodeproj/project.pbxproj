@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8694334E167BBEFB0095D971 /* RNPlaneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8694334D167BBEFB0095D971 /* RNPlaneView.m */; };
+		86943351167BC61A0095D971 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86943350167BC61A0095D971 /* QuartzCore.framework */; };
 		8697B7F5167A82FE00384B07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8697B7F4167A82FE00384B07 /* UIKit.framework */; };
 		8697B7F7167A82FE00384B07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8697B7F6167A82FE00384B07 /* Foundation.framework */; };
 		8697B7F9167A82FE00384B07 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8697B7F8167A82FE00384B07 /* CoreGraphics.framework */; };
@@ -22,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8694334C167BBEFB0095D971 /* RNPlaneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNPlaneView.h; sourceTree = "<group>"; };
+		8694334D167BBEFB0095D971 /* RNPlaneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNPlaneView.m; sourceTree = "<group>"; };
+		86943350167BC61A0095D971 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8697B7F0167A82FE00384B07 /* HackerNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackerNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8697B7F4167A82FE00384B07 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8697B7F6167A82FE00384B07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -47,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86943351167BC61A0095D971 /* QuartzCore.framework in Frameworks */,
 				8697B7F5167A82FE00384B07 /* UIKit.framework in Frameworks */,
 				8697B7F7167A82FE00384B07 /* Foundation.framework in Frameworks */,
 				8697B7F9167A82FE00384B07 /* CoreGraphics.framework in Frameworks */,
@@ -78,6 +84,7 @@
 		8697B7F3167A82FE00384B07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				86943350167BC61A0095D971 /* QuartzCore.framework */,
 				8697B7F4167A82FE00384B07 /* UIKit.framework */,
 				8697B7F6167A82FE00384B07 /* Foundation.framework */,
 				8697B7F8167A82FE00384B07 /* CoreGraphics.framework */,
@@ -93,6 +100,8 @@
 				869CC2BA167A835600F29BA9 /* RNBaseViewController.h */,
 				869CC2BB167A835600F29BA9 /* RNBaseViewController.m */,
 				8697B7FB167A82FE00384B07 /* Supporting Files */,
+				8694334C167BBEFB0095D971 /* RNPlaneView.h */,
+				8694334D167BBEFB0095D971 /* RNPlaneView.m */,
 			);
 			path = HackerNews;
 			sourceTree = "<group>";
@@ -192,6 +201,7 @@
 				8697B801167A82FE00384B07 /* main.m in Sources */,
 				8697B805167A82FE00384B07 /* RNAppDelegate.m in Sources */,
 				869CC2BC167A835600F29BA9 /* RNBaseViewController.m in Sources */,
+				8694334E167BBEFB0095D971 /* RNPlaneView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,13 +7,14 @@
 //
 
 #import "RNBaseViewController.h"
+#import "RNPlaneView.h"
 
 @interface RNBaseViewController ()
 
 @end
 
 @implementation RNBaseViewController {
-    UILabel *_d;
+    RNPlaneView *_plane;
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -31,19 +32,14 @@
     
     self.view.backgroundColor = [UIColor colorWithRed:0.882 green:0.278 blue:0.192 alpha:1.000];
     
-    _d = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 200, 200)];
-    _d.text = @"D";
-    _d.font = [UIFont fontWithName:@"HelveticaNeue-Bold" size:150];
-    _d.textAlignment = NSTextAlignmentCenter;
-    _d.textColor = [UIColor whiteColor];
-    _d.backgroundColor = [UIColor clearColor];
-    [self.view addSubview:_d];
+    _plane = [[RNPlaneView alloc] initWithFrame:CGRectMake(0, 0, 50, 50)];
+    [self.view addSubview:_plane];
 }
 
 - (void)viewDidLayoutSubviews {
     [super viewDidLayoutSubviews];
     
-    _d.center = CGPointMake(self.view.bounds.size.width / 2, self.view.bounds.size.height / 2);
+    _plane.center = CGPointMake(self.view.bounds.size.width / 2, self.view.bounds.size.height / 2);
 }
 
 - (void)didReceiveMemoryWarning {
